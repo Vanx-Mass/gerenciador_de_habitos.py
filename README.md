@@ -57,3 +57,15 @@ Beber água (Saúde)
 Estudar Python (Estudo)  
 
 ...
+
+🚀 Melhorias Implementadas
+
+ ✅ **Separação de responsabilidades**: funções principais extraídas para o módulo `habitos.py`.  
+ 
+ ✅ **Criação de testes automatizados** com `unittest` no arquivo `test_habitos.py`.  
+ 
+ ✅ **Melhoria na organização do código**: `main.py` agora é responsável apenas pela execução da aplicação.  
+ 
+ ✅ **Boas práticas de versionamento**: código modularizado e com nomenclatura mais clara.  
+ 
+ ✅ **Pré-preenchimento de hábitos para testes** controlado por variável `TESTE`.
