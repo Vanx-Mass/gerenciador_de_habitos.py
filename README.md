@@ -20,39 +20,40 @@ TESTE = True
 Se TESTE = True, o programa inicia com alguns hábitos de exemplo automaticamente.
 
 
-🧱 Estrutura do Código
-Bloco 1: Inicialização da lista de hábitos
+🧱 Estrutura do Código  
 
-Bloco 2: Função adicionar_habito() para incluir novos hábitos
+Bloco 1: Inicialização da lista de hábitos    
 
-Bloco 3: Função listar_habitos() para exibir os hábitos cadastrados
+Bloco 2: Função adicionar_habito() para incluir novos hábitos   
+
+Bloco 3: Função listar_habitos() para exibir os hábitos cadastrados  
 
 Bloco 4: Função menu() com a interface principal de interação
 
-▶️ Como rodar
+▶️ Como rodar  
 
-Copie o código para um arquivo .py (ex: habitos.py)
+Copie o código para um arquivo .py (ex: habitos.py)  
 
-Execute com Python:
+Execute com Python:  
 
-python habitos.py
+python habitos.py  
 
-✍️ Exemplo de uso
+✍️ Exemplo de uso  
 
---- 📊 Gerenciador de Hábitos ---
+--- 📊 Gerenciador de Hábitos ---  
 
-Adicionar hábito
+Adicionar hábito  
 
-Listar hábitos
+Listar hábitos  
 
-Sair
+Sair  
 
-Escolha uma opção: 2
+Escolha uma opção: 2  
 
-📋 Seus hábitos:
+📋 Seus hábitos:  
+  
+Beber água (Saúde)  
 
-Beber água (Saúde)
-
-Estudar Python (Estudo)
+Estudar Python (Estudo)  
 
 ...
