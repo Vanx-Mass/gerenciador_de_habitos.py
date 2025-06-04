@@ -1,26 +1,26 @@
-# gerenciador_de_habitos.py
+# 🐍 gerenciador_de_habitos.py
 
-📊 Gerenciador de Hábitos (em Python).
+Gerenciador de Hábitos (em Python).  
 Este projeto é um gerenciador simples de hábitos feito em Python, com foco em organização pessoal, produtividade e saúde.
 
-🧠 O que o projeto faz? Permite:
+## 💡 O que o projeto faz?
 
-✅ Adicionar novos hábitos com nome e categoria
+Este projeto permite:
 
-📋 Listar todos os hábitos cadastrados
+✅ Adicionar novos hábitos com nome e categoria  
+📋 Listar todos os hábitos cadastrados  
+🔄 Trabalhar com uma lista de hábitos vazia ou já preenchida para testes  
+🧪 Utilizar dados de exemplo para testes
 
-🔁 Trabalhar com uma lista de hábitos vazia ou já preenchida para testes
+## 🧪 Modo de teste
 
-🧪 Dados de exemplo para testes
+No início do código, você encontra a variável `TESTE`:
+TESTE = True
 
-No início do código, você encontra a variável TESTE: TESTE = True
+Se TESTE = True, o programa inicia com alguns hábitos de exemplo automaticamente.
 
-Se TESTE = True, o programa inicia com alguns hábitos de exemplo.
-
-Se TESTE = False, ele inicia com a lista de hábitos vazia, ideal para uso real.
 
 🧱 Estrutura do Código
-
 Bloco 1: Inicialização da lista de hábitos
 
 Bloco 2: Função adicionar_habito() para incluir novos hábitos
