@@ -56,4 +56,6 @@ Beber água (Saúde)
 
 Estudar Python (Estudo)  
 
-...
+...  
+
+✨ A branch melhorias contém uma versão refatorada com testes automatizados e modularização. Recomendo conferir!
