@@ -1,6 +1,6 @@
 # 🧠 Gerenciador de Hábitos no Terminal
-Este projeto permite cadastrar hábitos, visualizar e acompanhar sua prática diária.
-"""
+#Este projeto permite cadastrar hábitos, visualizar e acompanhar sua prática diária.
+
 
 # Inicializa com exemplo ou lista vazia
 TESTE = True  # Possbilita alterar para False para usar lista vazia
