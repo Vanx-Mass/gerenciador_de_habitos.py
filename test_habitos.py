@@ -2,13 +2,12 @@ import unittest
 from habitos import adicionar_habito
 
 class TestHabitos(unittest.TestCase):
-    def test_adicionar_habito(self):
-        lista = []
-        # Simula a adição manual (sem input), então você precisa adaptar a função ou testá-la isoladamente
+    def test_adicionar_habito_manual(self):
+        habitos = []
         habito = {"nome": "Estudar", "categoria": "Estudo", "historico": []}
-        lista.append(habito)
-        self.assertEqual(len(lista), 1)
-        self.assertEqual(lista[0]["nome"], "Estudar")
+        habitos.append(habito)
+        self.assertEqual(len(habitos), 1)
+        self.assertEqual(habitos[0]["nome"], "Estudar")
 
 if __name__ == "__main__":
     unittest.main()
