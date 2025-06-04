@@ -1,5 +1,5 @@
 import unittest
-from habitos import adicionar_habitos
+from habitos import adicionar_habito
 
 class TestHabitos(unittest.TestCase):
     def test_adicionar_habito(self):
