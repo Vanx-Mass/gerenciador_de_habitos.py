@@ -12,3 +12,30 @@ def listar_habitos(habitos):
     print("\n📋 Seus hábitos:")
     for i, h in enumerate(habitos, start=1):
         print(f"{i}. {h['nome']} ({h['categoria']})")
+
+def menu():
+    TESTE = True
+    if TESTE:
+        habitos = [
+            {"nome": "Beber água", "categoria": "Saúde", "historico": []},
+            {"nome": "Estudar Python", "categoria": "Estudo", "historico": []},
+        ]
+    else:
+        habitos = []
+
+    while True:
+        print("\n--- 📊 Gerenciador de Hábitos ---")
+        print("1. Adicionar hábito")
+        print("2. Listar hábitos")
+        print("3. Sair")
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            adicionar_habito(habitos)
+        elif opcao == "2":
+            listar_habitos(habitos)
+        elif opcao == "3":
+            print("Saindo do programa...")
+            break
+        else:
+            print("Opção inválida.")
