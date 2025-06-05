@@ -14,29 +14,34 @@ Este projeto permite:
 
 ## 🧪 Modo de teste
 
-No início do código, você encontra a variável `TESTE`:
-TESTE = True
+No início do dados_teste.py, você encontra a variável `TESTE`:
 
-Se TESTE = True, o programa inicia com alguns hábitos de exemplo automaticamente.
+Se TESTE = True, o programa inicia com hábitos de exemplo já cadastrados.
+
+Se TESTE = False, a lista de hábitos começa vazia.
 
 
-🧱 Estrutura do Código  
 
-Bloco 1: Inicialização da lista de hábitos    
+## 🧱 Estrutura do Projeto
+- `main.py`: interface principal do usuário (menu de interação)
+- `habitos.py`: módulo com funções de manipulação de hábitos
+- `test_habitos.py`: testes automatizados usando o framework `unittest`
 
-Bloco 2: Função adicionar_habito() para incluir novos hábitos   
+▶️ Como rodar
 
-Bloco 3: Função listar_habitos() para exibir os hábitos cadastrados  
+✅ Opcionais:
 
-Bloco 4: Função menu() com a interface principal de interação
+Você pode testar o projeto mesmo sem terminal, via Google Colab:
 
-▶️ Como rodar  
+Copie o conteúdo de habitos.py e main.py em células separadas.
 
-Copie o código para um arquivo .py (ex: habitos.py)  
+No final, chame menu() para iniciar o programa.
 
-Execute com Python:  
+Ou, localmente:
 
-python habitos.py  
+Salve os arquivos habitos.py e main.py na mesma pasta.
+
+Execute com:  
 
 ✍️ Exemplo de uso  
 
@@ -58,14 +63,16 @@ Estudar Python (Estudo)
 
 ...
 
-🚀 Melhorias Implementadas
+🚀 Melhorias implementadas (branch melhorias)
 
- ✅ **Separação de responsabilidades**: funções principais extraídas para o módulo `habitos.py`.  
- 
- ✅ **Criação de testes automatizados** com `unittest` no arquivo `test_habitos.py`.  
- 
- ✅ **Melhoria na organização do código**: `main.py` agora é responsável apenas pela execução da aplicação.  
- 
- ✅ **Boas práticas de versionamento**: código modularizado e com nomenclatura mais clara.  
- 
- ✅ **Pré-preenchimento de hábitos para testes** controlado por variável `TESTE`.
+✅ Modularização: separação de funções em habitos.py
+
+✅ Testes automatizados com unittest (test_habitos.py)
+
+✅ Organização de responsabilidades: main.py lida só com a execução
+
+✅ Modo de teste com hábitos pré-preenchidos
+
+✅ Código pronto para demonstração no Colab ou execução local
+
+
